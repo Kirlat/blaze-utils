@@ -1,0 +1,12 @@
+// Centers an element
+@mixin center() {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Sets element's dimensions. If height is not specified, assumed to be equal to width
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
