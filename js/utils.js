@@ -31,7 +31,7 @@ blaze.utils.equalHeightColumns = function () {
         tallest = 0;
         group = document.querySelectorAll("[data-blaze-eqht='" + i + "']");
         for (j = 0; j < group.length; j++) {
-            currentHeight = group[j].clientHeight;
+            currentHeight = Math.ceil(group[j].getBoundingClientRect().height);
             if (currentHeight > tallest) tallest = currentHeight;
         }
         for (j = 0; j < group.length; j++) {
