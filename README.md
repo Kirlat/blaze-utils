@@ -1,4 +1,4 @@
-# Blaze Utils <sup>1.0.1</sup>
+# Blaze Utils <sup>1.0.2</sup>
 
 JavaScript utility functions to help with everyday routine tasks.
 
